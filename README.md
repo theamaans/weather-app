@@ -29,14 +29,26 @@ A simple weather application built with React that allows users to search for ci
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/weather-app.git
-Navigate to the project directory:
+
+
+2. Navigate to the project directory:
 cd weather-app
-Install the dependencies:
+
+
+3.Install the dependencies:
 npm install
-Start the JSON server
+
+
+4. Start the JSON server
 json-server --watch db.json --port 3001
-Start the React application:
+
+
+
+
+5. Start the React application:
 npm start
+
+
 You need an API key from OpenWeatherMap to fetch weather data. Replace the API key in the Weather_main component with your own:
 const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=YOUR_API_KEY`;
 
