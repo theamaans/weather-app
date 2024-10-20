@@ -1,0 +1,57 @@
+/* FavCities.css */
+
+.fav-cities-container {
+    border: 1px solid #ccc;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: #5b94bc;
+  }
+  
+  .fav-cities-container h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .fav-cities-container input {
+    padding: 8px;
+    width: 30vw;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .fav-cities-container button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .fav-cities-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .fav-cities-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .fav-cities-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  .fav-cities-container li button {
+    margin-left: 5px;
+    background-color: #dc3545;
+  }
+  
+  .fav-cities-container li button:hover {
+    background-color: #c82333;
+  }
+  
